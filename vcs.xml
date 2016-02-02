@@ -6,6 +6,10 @@
           <option name="url" value="https://github.com/Tyler-Yates/TuringThesis.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://github.com" />
+          <option name="userName" value="cnaquin9@yahoo.com" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Documents/Java" />
