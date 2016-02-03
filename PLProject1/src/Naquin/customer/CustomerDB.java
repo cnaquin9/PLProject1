@@ -11,4 +11,8 @@ public class CustomerDB {
         // "1003"
         Customer c3 = new Customer("Ronda Chavan", "518 Commanche Dr.", "Greensboro", "NC", "27410");
     }
+
+    // return customer based on int parameter.
+    // Try public static Customer (int customerNumber){}
+
 }
