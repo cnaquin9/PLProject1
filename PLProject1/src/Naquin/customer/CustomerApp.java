@@ -21,6 +21,7 @@ public class CustomerApp {
 
 
             //call getCustomer
+            System.out.println(getCustomer(customerNumber));
 
 
             // Ask user if they would like to check another customer
