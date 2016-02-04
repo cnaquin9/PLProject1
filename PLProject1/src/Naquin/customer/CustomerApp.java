@@ -6,29 +6,34 @@ import java.util.Scanner;
 public class CustomerApp {
 
     public static void main(String[] args) {
+    String userChoice = "y";
+        // Prints welcome message.
+        System.out.println("Welcome to the Customer Viewer");
+    do {
+
+        System.out.println("");
+
+        Scanner input1 = new Scanner(System.in);
+
+        // Get customer number
+        System.out.print("Enter a customer number: ");
+        int customerNumber = input1.nextInt();
+
+        System.out.println();
 
 
-            // Prints welcome message.
-            System.out.println("Welcome to the Customer Viewer");
-            System.out.println("");
+        //call getCustomer
+        System.out.println(CustomerDB.getCustomer(customerNumber));
+        System.out.println();
 
 
-            Scanner input1 = new Scanner(System.in);
+        // Ask user if they would like to check another customer
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Display another customer? (y/n): ");
+        System.out.print("");
+        userChoice = scan.next();;
 
-            // Get customer number
-            System.out.println("Enter a customer number: ");
-            int customerNumber = input1.nextInt();
-
-
-            //call getCustomer
-            System.out.println(getCustomer(customerNumber));
-
-
-            // Ask user if they would like to check another customer
-            //Scanner scan = new Scanner(System.in);
-            //System.out.println("Display another customer? (y/n)");
-            //String userchoice = scan.next();
-
+    } while(userChoice.contains("y"));
 
 
 
