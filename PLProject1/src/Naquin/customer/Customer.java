@@ -4,13 +4,9 @@ package Naquin.customer;
 public class Customer {
     private String name, address, city, state, postalCode;
 
-    public Customer() {
-        this.name = "Harry";
-        this.address = "123 alphabet st";
-        this.city = "Austin";
-        this.state = "TX";
-        this.postalCode = "78705";
-    }
+    /*public Customer() {
+        this("Bob","123 alphabet street","Austin", "TX", "78705");
+    */
 
     public Customer(String name, String address, String city, String state, String postalCode) {
         this.name = name;
