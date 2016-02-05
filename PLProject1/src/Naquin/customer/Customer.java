@@ -4,7 +4,7 @@ package Naquin.customer;
 public class Customer {
     private String name, address, city, state, postalCode;
 
-    public Customer (){
+    public Customer() {
         this.name = "Harry";
         this.address = "123 alphabet st";
         this.city = "Austin";
@@ -12,7 +12,7 @@ public class Customer {
         this.postalCode = "78705";
     }
 
-    public Customer (String name, String address, String city, String state, String postalCode){
+    public Customer(String name, String address, String city, String state, String postalCode) {
         this.name = name;
         this.address = address;
         this.city = city;
@@ -26,38 +26,47 @@ public class Customer {
     public void setName(String name) {
         this.name = name;
     }
+
     public void setAddress(String address) {
         this.address = address;
     }
+
     public void setCity(String city) {
-        this.city=city;
+        this.city = city;
     }
+
     public void setState(String state) {
         this.state = state;
     }
+
     public void setPostalCode(String postalCode) {
         this.postalCode = postalCode;
     }
 
     // get methods
-    public String getName(){
+    public String getName() {
         return this.name;
     }
-    public String getAddress(){
+
+    public String getAddress() {
         return this.address;
     }
-    public String getCity(){
+
+    public String getCity() {
         return this.city;
     }
-    public String getState(){
+
+    public String getState() {
         return this.state;
     }
-    public String getPostalCode(){
+
+    public String getPostalCode() {
         return this.postalCode;
     }
+
     //prints
     public String getNameAndAddress() {
-        return (this.name + "\n" + this.address + "\n" + this.city+ ", " + this.state + " " + this.postalCode);
+        return (this.name + "\n" + this.address + "\n" + this.city + ", " + this.state + " " + this.postalCode);
     }
 
 }
