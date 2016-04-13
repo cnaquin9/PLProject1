@@ -26,6 +26,14 @@
           <option name="url" value="https://github.com/cnaquin9/PLProject4.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/cnaquin9/Phttps://github.com/cnaquin9/PLProject5.gitLProject1.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/cnaquin9/PLProject5.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Documents/Java" />
