@@ -40,6 +40,6 @@
         </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/Programming-Languages/Python" />
+    <option name="cloneParentDir" value="$USER_HOME$/Programming-Languages" />
   </component>
 </application>
